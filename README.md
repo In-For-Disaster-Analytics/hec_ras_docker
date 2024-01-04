@@ -17,7 +17,7 @@
 
 ## Dockerfile for HEC-RAS
 
-This [Dockerfile](https://github.com/dhardestylewis/hec_ras_docker/blob/main/Dockerfile) can be used as line-by-line installation instructions for HEC-RAS's software dependencies.
+This [Dockerfile](https://github.com/In-For-Disaster-Analytics/hec_ras_docker/blob/main/Dockerfile) can be used as line-by-line installation instructions for HEC-RAS's software dependencies.
 
 This Docker image contains the binary executables for HEC-RAS.
 
@@ -161,22 +161,3 @@ where `hec_ras_commands.sh` is written as above.
 
 <a name="azure"/>
 
-## **Using TACC's Azure image for HEC-RAS**
-
-*If you are using an [@Azure](https://portal.azure.com/) virtual machine and haven't yet been onboarded:*
-
-https://azure.microsoft.com/en-us/get-started/
-
-*or reach out!*
-
-- Navigate to [@wmobley](https://github.com/wmobley)'s [Azure image for HEC-RAS](https://portal.azure.com/#@wmobleyneotamu.onmicrosoft.com/resource/subscriptions/469545af-8403-410f-92e2-6300e77dcb03/resourceGroups/Hecras/providers/Microsoft.Compute/virtualMachines/HecRas-8/overview)
-
-*If you experience an issue accessing this page, please reach out with a screenshot of the error message that you receive.*
-
-- Check the `Status` of the virtual machine to see if it is `Running`. If it is not `Running`, click `> Start` to kick it off.
-
-- Open the `Connect v` menu and click `Bastion`.
-
-- Plug in the `Username` and `Password` that TACC provides and `Connect`.
-
-- Enjoy `HEC-RAS` on the cloud!
